@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+
+.my-container{
+    width: 80%; 
+    height: 600px;
+    margin: 60px auto;
+    display: flex;
+    background-color: #8a00cf;
+    border-radius: 8px;  
+    /*flex-direction: row;
+    flex-wrap:wrap;*/
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.my-item {
+    height: 150px;
+    background-color: #21f8bb;
+    border-radius: 8px;
+    padding: 30px;
+    border: 8px solid #fff;
+    flex-basis: 10%;
+}
+
+
