@@ -14,7 +14,7 @@
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: flex-start;
-    align-content: flex-start;
+    align-content: center;
    
 }
 
@@ -25,6 +25,7 @@
     padding: 30px;
     border: 8px solid #fff;
     flex-basis: 10%;    
+    
 }
 
 .order-1 {
@@ -38,4 +39,12 @@
 }
 .order-4 {
     order: 4;
+}
+
+.grow-1 {
+    flex-grow: 1;
+}
+
+.grow-2 {
+    flex-grow: 2;
 }
