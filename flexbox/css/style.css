@@ -12,16 +12,30 @@
     /*flex-direction: row;
     flex-wrap:wrap;*/
     flex-flow: row wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+   
 }
 
 .my-item {
-    height: 150px;
+    height: 50px;
     background-color: #21f8bb;
     border-radius: 8px;
     padding: 30px;
     border: 8px solid #fff;
-    flex-basis: 10%;
+    flex-basis: 10%;    
 }
 
-
+.order-1 {
+    order: 1;
+}
+.order-2 {
+    order: 2;
+}
+.order-3 {
+    order: 3;
+}
+.order-4 {
+    order: 4;
+}
